@@ -1,0 +1,148 @@
+* {
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #152733;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.form-holder .form-content {
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.form-content .form-items {
+  border: 3px solid #fff;
+  padding: 40px;
+  display: inline-block;
+  width: 100%;
+  min-width: 540px;
+  border-radius: 10px;
+  text-align: left;
+  transition: all 0.4s ease;
+}
+
+.form-content h3 {
+  color: #fff;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-content h3.form-title {
+  margin-bottom: 30px;
+}
+
+.form-content p {
+  color: #fff;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+.form-content label,
+.was-validated .form-check-input:invalid ~ .form-check-label,
+.was-validated .form-check-input:valid ~ .form-check-label {
+  color: #fff;
+}
+
+.form-content select {
+  width: 100%;
+  padding: 9px 20px;
+  text-align: left;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8d8d8d;
+  transition: all 0.3s ease;
+  margin-top: 16px;
+}
+
+.btn-primary {
+  background-color: #6c757d;
+  outline: none;
+  border: 0px;
+  box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #495056;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none;
+}
+
+.form-content textarea {
+  position: static !important;
+  width: 100%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8d8d8d;
+  outline: none;
+  resize: none;
+  height: 120px;
+  transition: none;
+  margin-bottom: 14px;
+}
+
+.mv-up {
+  margin-top: -9px !important;
+  margin-bottom: 8px !important;
+}
+
+.taskList * {
+  border: 1px solid white;
+}
+.taskList th,
+.taskList th {
+  width: 20%;
+  text-align: center;
+}
+.taskList thead tr th:first-child {
+  width: 10%;
+}
+.taskList tr td:first-child {
+  text-align: center;
+}
+
+option {
+  color: black;
+}
+
+input[type=radio] {
+  opacity: 0;
+}/*# sourceMappingURL=taskRegisterForm.css.map */

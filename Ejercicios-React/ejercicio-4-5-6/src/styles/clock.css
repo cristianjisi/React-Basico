@@ -1,0 +1,20 @@
+body {
+  background-color: antiquewhite;
+}
+
+.persona {
+  background-color: antiquewhite;
+  filter: invert(100%);
+  width: 30vw;
+  text-align: left;
+  padding: 5rem;
+  margin: auto;
+}
+.persona h1 {
+  color: red;
+}
+.persona .edad {
+  margin: 0;
+  display: inline-block;
+  text-decoration: underline;
+}/*# sourceMappingURL=clock.css.map */
